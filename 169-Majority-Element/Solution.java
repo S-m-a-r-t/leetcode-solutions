@@ -1,6 +1,6 @@
 class Solution {
-    public int majorityElement(int[] nums) {
-        Arrays.sort(nums);
-        return nums[nums.length/2];
+    public int majorityElement(int[] digits) {
+        Arrays.sort(digits);
+        return digits[digits.length/2];
     }
 }
